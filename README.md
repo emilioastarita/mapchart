@@ -14,9 +14,9 @@ http://www.cloudymedia.com/hackaton/index.html
 
 Utilizados:
 
-Bootstrap
-API Google Maps V3
-jQuery 2.0
-JSON
-PHP para generar los datos JSON
-CSS3 & D3.js
+- Bootstrap
+- API Google Maps V3
+- jQuery 2.0
+- JSON
+- PHP para generar los datos JSON
+- CSS3 & D3.js
