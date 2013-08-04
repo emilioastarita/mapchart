@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://getbootstrap.com/2.3.2/examples/fluid.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Map Chart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="js/d3.v2.js"></script>
+    <script type="text/javascript" src="js/underscore.js"></script>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+    <h1 id="globalLabel"></h1>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="/">Map Chart</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span2">
+          <div class="well navbar-form js-provinces"> </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span10">
+          <div id="map"></div>
+          <div class="well navbar-form datasets">
+            <div class="js-dataset js-dataset1 ">
+            </div>
+            <div class="js-dataset js-dataset2 ">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div class="js-graph-template" >
+      <ul class="graph-container ">
+        
+        <li class="js-dataset1-value">
+          <h3 class="js-prov-name"></h3>
+          <span class="js-value"></span>
+          <div class="bar-wrapper">
+            <div class="bar-container ">
+              <div class="bar-background"></div>
+              <div class="bar-inner"></div>
+              <div class="bar-foreground"></div>
+            </div>
+          </div>
+        </li>
+        <li class="js-dataset2-value">
+          <span class="js-value"></span>
+          <div class="bar-wrapper">
+            <div class="bar-container ">
+              <div class="bar-background"></div>
+              <div class="bar-inner"></div>
+              <div class="bar-foreground"></div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <ul class="graph-marker-container">
+            <li style="bottom:25%;"><span>25%</span></li>
+            <li style="bottom:50%;"><span>50%</span></li>
+            <li style="bottom:75%;"><span>75%</span></li>
+            <li style="bottom:100%;"><span>100%</span></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+    <script src="js/global.js"></script>
+  </body>
+
+</html>
