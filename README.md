@@ -8,3 +8,7 @@ en un overlay de Google Maps.
 
 La interfaz permite la comparación de cualesquiera dos serie en las provincias seleccionadas.
 
+Una demo de la aplicación se puede visualizar aquí:
+
+http://www.cloudymedia.com/hackaton/index.html
+
